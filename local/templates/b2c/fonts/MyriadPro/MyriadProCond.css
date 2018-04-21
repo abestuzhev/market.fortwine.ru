@@ -1,0 +1,40 @@
+/* font-family: "MyriadProCondRegular"; */
+@font-face {
+    font-family: "MyriadProCond";
+    src: url("MyriadProCondRegular/MyriadProCondRegular.eot");
+    src: url("MyriadProCondRegular/MyriadProCondRegular.eot?#iefix")format("embedded-opentype"),
+    url("MyriadProCondRegular/MyriadProCondRegular.woff") format("woff"),
+    url("MyriadProCondRegular/MyriadProCondRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProCondBold"; */
+@font-face {
+    font-family: "MyriadProCond";
+    src: url("MyriadProCondBold/MyriadProCondBold.eot");
+    src: url("MyriadProCondBold/MyriadProCondBold.eot?#iefix")format("embedded-opentype"),
+    url("MyriadProCondBold/MyriadProCondBold.woff") format("woff"),
+    url("MyriadProCondBold/MyriadProCondBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+/* font-family: "MyriadProCondItalic"; */
+@font-face {
+    font-family: "MyriadProCond";
+    src: url("MyriadProCondItalic/MyriadProCondItalic.eot");
+    src: url("MyriadProCondItalic/MyriadProCondItalic.eot?#iefix")format("embedded-opentype"),
+    url("MyriadProCondItalic/MyriadProCondItalic.woff") format("woff"),
+    url("MyriadProCondItalic/MyriadProCondItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+/* font-family: "MyriadProCondBoldItalic"; */
+@font-face {
+    font-family: "MyriadProCond";
+    src: url("MyriadProCondBoldItalic/MyriadProCondBoldItalic.eot");
+    src: url("MyriadProCondBoldItalic/MyriadProCondBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("MyriadProCondBoldItalic/MyriadProCondBoldItalic.woff") format("woff"),
+    url("MyriadProCondBoldItalic/MyriadProCondBoldItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: bold;
+}

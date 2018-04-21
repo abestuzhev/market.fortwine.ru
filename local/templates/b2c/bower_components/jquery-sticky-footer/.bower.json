@@ -1,0 +1,53 @@
+{
+  "name": "jquery-sticky-footer",
+  "version": "0.2.0",
+  "authors": [
+    {
+      "name": "Andrea Stronati",
+      "email": "astronati@vendini.com"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alexei Liulin",
+      "email": "codwizard@gmail.com"
+    }
+  ],
+  "description": "Position the footer at the bottom of the page without using 'position: absolute'",
+  "keywords": [
+    "footer",
+    "sticky footer",
+    "jquery sticky footer"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "2.1.4"
+  },
+  "ignore": [
+    ".*",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "example",
+    "test",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "README.md",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "main": [
+    "dist/jquery.sticky-footer.min.js",
+    "src/jquery.sticky-footer.js"
+  ],
+  "homepage": "https://github.com/the-software-factory/jquery-sticky-footer",
+  "_release": "0.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.0",
+    "commit": "f3c4ff7d077f8057952dac436c2d89e8e8743aae"
+  },
+  "_source": "git://github.com/the-software-factory/jquery-sticky-footer.git",
+  "_target": "*",
+  "_originalSource": "jquery-sticky-footer"
+}
