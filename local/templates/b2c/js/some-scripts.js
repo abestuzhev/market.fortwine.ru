@@ -36,7 +36,7 @@ function attNo() {
 
 
 $(document).ready(function () {
-    fancybox();
+    // fancybox();
 
     if (typeof $.cookie('attention') == 'undefined') {
         $('.show-attention').trigger('click');

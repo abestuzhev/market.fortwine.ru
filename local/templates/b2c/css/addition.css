@@ -365,7 +365,9 @@ option::-webkit-selection {background: #750b09; }
 
 
 
-
+.show-popup {
+    display: block;
+}
 
 
 

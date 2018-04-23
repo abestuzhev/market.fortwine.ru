@@ -26,20 +26,21 @@
     <link href="./local/templates/b2c/css/addition.css" type="text/css" data-template-style="true" rel="stylesheet"/>
     
     
-    <script type="text/javascript" src="/bitrix/cache/js/s1/b2c/kernel_main/kernel_main.js?1523862835390036"></script>
-    <script type="text/javascript" src="/bitrix/js/main/jquery/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="/bitrix/cache/js/s1/b2c/kernel_kombox/kernel_kombox.js?15238621213365"></script>
+    <!--<script type="text/javascript" src="/bitrix/cache/js/s1/b2c/kernel_main/kernel_main.js?1523862835390036"></script>-->
+    <script type="text/javascript" src="./local/templates/b2c/js/jquery-1.8.3.min.js"></script>
+    <!--<script type="text/javascript" src="/bitrix/cache/js/s1/b2c/kernel_kombox/kernel_kombox.js?15238621213365"></script>-->
     
     
     <script type="text/javascript" src="./local/templates/b2c/js/jquery.mask.min.js"></script>
-    <script type="text/javascript" src="./local/templates/b2c/js/template_6203e3b07bee69f378b6dd86f2b96b27.js"></script>
     <script type="text/javascript" src="./local/templates/b2c/js/page_7c9549a24ea836750a778a1471364b03.js"></script>
+    <script type="text/javascript" src="./local/templates/b2c/js/template_6203e3b07bee69f378b6dd86f2b96b27.js"></script>
     
     <script>new Image().src = 'http://market.fortwine.ru/bitrix/spread.php?s=QklUUklYX1NNX0FCVEVTVF9zMQEBMTU1NTMzMTc4NwEvAQEBAkJJVFJJWF9TTV9HVUVTVF9JRAE4Mjk1NgExNTU1MzMxNzg3AS8BAQECQklUUklYX1NNX0xBU1RfVklTSVQBMjAuMDQuMjAxOCAxNTozNjoyNwExNTU1MzMxNzg3AS8BAQEC&k=e7f33ef76e6feb60f6d44daf89ce7660';
     </script>
     
     <!--new SCRIPT-->
     <script src="./local/templates/b2c/js/jquery.mask.min.js"></script>
+    <script src="./local/templates/b2c/js/addition-script.js"></script>
     <!--END new SCRIPT-->
     
     <!--[if IE]>
@@ -330,8 +331,8 @@
     
             
             
-            <!--<script src="/local/templates/b2c/components/bitrix/catalog/def/js/phone-codes.js"></script>-->
-            <!--<script src="/local/templates/b2c/components/bitrix/catalog/def/js/jquery.inputmask.bundle.js"></script>-->
+            <script src="/local/templates/b2c/js/phone-codes.js"></script>
+            <script src="/local/templates/b2c/js/jquery.inputmask.bundle.js"></script>
             <script language="javascript">
                 var price_for_unit = '350';
                 var defaultScope = new function () {
@@ -871,6 +872,33 @@
             <span class="text">Товар добавлен в избранное</span>
             <a href="/personal/favorite/" class="pop-up__btn pop-up__btn--personal-area">перейти в избранное</a>
             <button class="pop-up__btn pop-up__btn--continue">продолжить выбор</button>
+        </div>
+    </div>
+    
+    <div class="pop-up pop-up-custom pop-up__choice-city"  >
+        <div class="close"></div>
+        <div class="pop-up-custom__title">Ваш город?</div>
+        <div class="pop-up-custom__body">
+            <a href="#" class="pop-up-custom__city">Москва</a>
+            <div class="pop-up-custom__btns">
+                <a href="#" class="pop-up-custom__btn pop-up-custom__btn--active">Да</a>
+                <a href="#" class="pop-up-custom__btn pop-up-custom__btn--cancel">Нет</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="pop-up pop-up-custom pop-up__change-city">
+        <div class="close"></div>
+        <div class="pop-up-custom__title">Выберите ваш город</div>
+        <div class="pop-up-custom__body">
+            <ul class="pop-up-custom-city-list">
+                <li class="pop-up-custom-city-list__item">
+                    <a href="#" class="pop-up-custom-city-list__link active">Москва</a>
+                </li>
+                <li class="pop-up-custom-city-list__item">
+                    <a href="#" class="pop-up-custom-city-list__link">Санкт-Петербург</a>
+                </li>
+            </ul>
         </div>
     </div>
     
