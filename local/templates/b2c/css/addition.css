@@ -370,6 +370,30 @@ option::-webkit-selection {background: #750b09; }
 }
 
 
+@media screen and (max-width: 580px) {
+    .n-registration {
+        width: 100%;
+        padding: 0 14px;
+    }
+
+    .n-registration-layout {
+        padding-bottom: 40px;
+    }
+    .n-registration-form__col {
+        width: 100%;
+        float: none;
+    }
+}
+
+
+
+@media screen and (max-width: 460px) {
+    .n-not-found {
+        width: 100%;
+        padding: 0 14px;
+    }
+}
+
 
 
 
